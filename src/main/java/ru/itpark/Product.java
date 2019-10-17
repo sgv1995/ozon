@@ -10,6 +10,7 @@ public class Product {
     private String imageUrl;
     private boolean available;
 
+
     public Product(int id, String name, String description, int fullPrice, int discountPercentage, int rating, String imageUrl, boolean available) {
         this.id = id;
         this.name = name;
